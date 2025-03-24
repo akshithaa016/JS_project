@@ -1,0 +1,92 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  #addEventForm {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px; 
+    justify-content: space-between; 
+    margin-bottom: 20px;
+    color:#010101;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:large;
+  }
+  
+  #addEventForm input {
+    flex: 1 1 25%; 
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #010101;
+  }
+  
+  #addEventForm button {
+    flex: 1 1 75%; 
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #addEventForm button:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .dashboard {
+    width: 100%;
+    max-width: 800px;
+    background: rgba(108, 197, 194, 0.993);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .event-list {
+    margin-top: 20px;
+  }
+  
+  .event-card {
+    background: #eaf4ff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-card h2 {
+    margin: 0;
+  }
+  
+  .event-card p {
+    margin: 5px 0;
+  }
+  
+  .gift-suggestion {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .gift-suggestion:hover {
+    background: #0056b3;
+  }
+  
